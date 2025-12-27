@@ -1,56 +1,57 @@
-🚀 ML Engineering Projects
-This repository contains end-to-end Machine Learning engineering projects built using clean, modular, and production-oriented workflows.
-Each project follows industry-standard practices including data ingestion, preprocessing, feature engineering, model training, evaluation, and reproducibility.
+# 🚀 ML Engineering Projects
 
-🎯 Purpose of This Repository
-Apply real ML engineering workflows, not just notebooks
-Build clean, reusable pipelines
-Practice production-ready structure
-Showcase projects in a recruiter-friendly format
-This repo is intentionally different from experimentation or learning notebooks — it focuses on how ML systems are built in real projects.
+This repository contains **end-to-end Machine Learning Engineering projects** built using clean, modular, and production-oriented workflows.  
+The focus is on writing **maintainable code**, following **real-world ML engineering practices**, and separating experimentation from reusable logic.
 
-🧱 Project Structure (Standardized)
-Each project follows a structure similar to:
-project-name/
-│
-├── data/                # Raw / processed datasets
-├── notebooks/           # Analysis & EDA notebooks
-├── src/                 # Core ML pipeline code
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── train.py
-│   └── evaluate.py
-│
-├── requirements.txt     # Dependencies
-├── config.yaml          # Configuration files
-└── README.md            # Project-specific documentation
+Each project reflects how ML systems are developed in industry — from **data loading** and **preprocessing** to **model training**, **evaluation**, and **experimentation**.
 
-🛠️ Tools & Technologies
-Python
-NumPy, Pandas
-Scikit-learn
-XGBoost / LightGBM
-Matplotlib / Seaborn
-Git & GitHub
-Jupyter Lab
-(Future) MLflow, FastAPI, Docker
+---
 
-📌 Key Focus Areas
-Clean code & modular design
-Reproducible experiments
-Proper train / validation / test split
-Evaluation with business-relevant metrics
-Readable and well-documented projects
-📈 Current Status
-🚧 Actively building and improving projects
-📆 New projects will be added regularly
+## 📌 What This Repository Demonstrates
 
-👨‍💻 Author
-Sabari Murugan
-Machine Learning Engineer
-Focused on strong fundamentals and real-world ML workflows
+- ✅ **Clean and modular Python code structure**  
+- ✅ **Separation of concerns**: data, features, models, training  
+- ✅ **Reproducible experiments** using Jupyter notebooks  
+- ✅ **Script-based pipelines** for training and evaluation  
+- ✅ **Industry-style ML project organization**  
+- ✅ Emphasis on **readability, scalability, and reusability**  
 
-⭐ Note
-This repository reflects a learning-by-building approach.
-Code quality and structure will continuously improve as projects evolve.
+---
+
+## 🛠 Typical Workflow
+
+1. **Load and validate data** using dedicated loader functions  
+2. **Exploratory data analysis** in notebooks  
+3. **Preprocessing & feature engineering** pipelines  
+4. **Train and tune models** using clean scripts  
+5. **Evaluate models** using proper metrics  
+6. Keep **core logic reusable** in Python modules  
+
+---
+
+## ⚙️ Tools & Technologies
+
+- **Python**  
+- **NumPy**, **Pandas**  
+- **Scikit-learn** (and other ML libraries)  
+- **Jupyter Notebook** for analysis  
+- **VS Code** for development  
+
+---
+
+## 🎯 Purpose
+
+This repository is designed to showcase **ML Engineering skills**, not just model accuracy.  
+It reflects how machine learning code is **organized, maintained, and scaled** in professional environments.
+
+> UI development and dashboards are intentionally kept out of scope so the focus remains on **modeling, training, tuning, and engineering best practices**.
+
+---
+
+## 👥 Who This Is For
+
+- Aspiring **Machine Learning Engineers**  
+- Students transitioning from **notebooks to production workflows**  
+- Anyone learning how to **structure real-world ML projects**
+
+---
